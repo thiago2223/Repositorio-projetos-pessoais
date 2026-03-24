@@ -157,3 +157,14 @@ aside{
     width: 88%;
     height: 88%;
 }
+#div-de-exemplo-em-elementos-dentro-de-uma-div{
+    background-color: gray;
+    color: white;
+}
+#div-de-exemplo-em-elementos-dentro-de-uma-div > p{
+    display: none;
+}
+#div-de-exemplo-em-elementos-dentro-de-uma-div > p:hover{
+    display: block;
+    background-color: greenyellow;
+}
