@@ -46,12 +46,13 @@ header > p{
 }
 nav{
     background-color: var(--cor1);
+    padding: 15px 15px 5px 15px;
 }
 nav > a{
     color: white;
     font-weight: bold;
     text-decoration: none;
-    padding: 10px 15px 0px 15px;
+    padding: 10px 15px 5px 15px;
     border-radius: 5px;
 }
 nav >a:hover{
@@ -131,4 +132,10 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+}
+aside{
+    background-color: var(--cor3);
+    color: white;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
 }
