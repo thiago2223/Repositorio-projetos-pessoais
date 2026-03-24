@@ -21,7 +21,7 @@
             <h1 class="titulo-principal"><abbr title="HyperText Markup Language">HTML5</abbr> e <abbr title="Cascading style sheets">CSS3</abbr></h1>
                     
                     <div class="imagen-flex">
-                        <img src="../imagens/html5-e-css3.jpg" alt="Imagen da logo do html5 e css3">
+                        <img src="imagens/html5-e-css3.jpg" alt="Imagen da logo do html5 e css3">
                         <p>HTML5 e CSS3 são linguagens de marcação de texto. Muito versatil, e é usada em praticamente todos os sites de hoje em dia!</p>
                     </div> 
             <hr>
@@ -66,7 +66,7 @@
                         <picture>
             <source media="(max-width: 750px)" srcset="../imagens/imagen-exemplo-p.png" type="image/png">
             <source media="(max-width: 1050px)" srcset="../imagens/imagen-exemplo-m.png" type="image/png">
-            <img src="../imagens/imagen-exemplo-g.png" alt="">
+            <img src="/imagens/imagen-exemplo-g.png" alt="">
             </picture></p>
                 <br><br>
             <p>Você vai clicar em novo arquivo, ao clicar vai aparecer uma pequena aba, nela você vai digitar index.html (EXATAMENTE ASSIM) e apertar enter. depois disso, você vai voltar na pasta que você criou, e lá vai ter um novo arquivo dentro da pasta, esse arquivo é o index, que ao abrir você vai ser levado a uma pagina do Google, essa pagina é o seu site, que você vai criar usando o Visual Studio Code, recomendo você deixar o Visual Studio Code e a pagina no Google abertos, para você trabalhar no codigo enquanto vê o resultado na pagina do Google.</p>
@@ -310,7 +310,7 @@
             <p>Agora, para um link, é a mesma coisa de antes, porém, como a pagina tá em uma outra pasta você vai fazer de um jeito um pouco diferente. Você vai apertar o crtl + espaço, e selecionar a pasta noticias, e nela, selecionar a <code>pag003.html.</code></p>
             <p>No final o codigo ficaria assim: <code>&lt;a href="noticias/pag003.html" rel="next"&gt;</code>Acesse também a nossa página de notícias!<code>&lt;/a&gt;</p></code>
             <p>E no site ficaria assim:</p>
-            <a href="../noticias/pag003.html" rel="next" class="noticias">Acesse também a nossa página de notícias!</a>
+            <a href="noticias/pag003.html" rel="next" class="noticias">Acesse também a nossa página de notícias!</a>
             <p>E para voltar (isso estando na <code>pag003.html</code> no caso a pagina de notícias) é um pouco diferente. no <code>href=""</code>, invés de<code> pag001.html</code> ou <code>index.html</code>, ou seja lá qual nome você deu para a primeira página, você irá colocar dois pontos, barra, pag001.htm ou index, emfim, o nome que você colocou. Assim que você colocar ../ irá aparecer uma barrimha com os arquivos que estão na outra pasta. Como aparece normalmente ao apertar crtl + espaço. Aí você vai selecionar a primeira pagina, ou a segunda, se quiser voltar para ela. E o de sempre, colocar o <code>rel="prev"</code>. Para indicar ao navegador que o link leva para uma página anterior.</p>
         <h3>Links para patrocinio</h3>
             <p>Se você for fazer um link como por exemplo:</p>
@@ -329,9 +329,9 @@
                 <h2>Mídias em HTML5</h2>
         <h3>Imagens dinâmicas</h3>
             <picture>
-                <source media="(max-width: 800px)" srcset="../imagens/foto-p-ex.png" type="image/png">
-                <source media="(max-width: 1100px)" srcset="../imagens/foto-m-ex.png" type="image/png">
-                <img src="../imagens/foto-g-ex.png" alt="Imagen grande de exemplo">
+                <source media="(max-width: 800px)" srcset="/imagens/foto-p-ex.png" type="image/png">
+                <source media="(max-width: 1100px)" srcset="/imagens/foto-m-ex.png" type="image/png">
+                <img src="imagens/foto-g-ex.png" alt="Imagen grande de exemplo">
             </picture>
             <p>Se você diminuir ou aumentar a aba do navegador, você irá perceber que a imagen se adequa ao tamanho, e fazer isso é bem simples.</p>
             <p>Você vai precisar de 3 tamanhos para a sua imagen, uma versão de 1000px, uma de 700px, e uma de 300px de largura, altura nem importa tanto assim. Você irá colocar as imagens junto do index, e as coisas perto dele na pasta.</p>
@@ -345,18 +345,18 @@
 </pre>
         <h3>Áudios</h3>
             <audio preload="metadata" controls>
-                <source src="../midias/fahhhhh.mp3" type="audio/mpeg">
-                <source src="../midias/fahhhhh.ogg" type="audio/ogg">
+                <source src="midias/fahhhhh.mp3" type="audio/mpeg">
+                <source src="midias/fahhhhh.ogg" type="audio/ogg">
             </audio>
                 <br>
             <audio preload="metadata" controls>
-                <source src="../midias/oof.mp3" type="audio/mpeg">      <!--você pode colocar o loop, depois de controls, para tocar em loop-->
-                <source src="../midias/oof.ogg" type="audio/ogg">
+                <source src="midias/oof.mp3" type="audio/mpeg">      <!--você pode colocar o loop, depois de controls, para tocar em loop-->
+                <source src="midias/oof.ogg" type="audio/ogg">
             </audio>
                 <br>
             <audio preload="metadata" controls>
-                <source src="../midias/rizz.mp3" type="audio/mpeg">
-                <source src="../midias/rizz.ogg" type="audio/ogg">
+                <source src="midias/rizz.mp3" type="audio/mpeg">
+                <source src="midias/rizz.ogg" type="audio/ogg">
             </audio>
             <p>Para colocar audios, você deve usar a tag, audio, assim:</p>
 <pre style="font-size: 0.95em;">
@@ -378,9 +378,9 @@
         <h3>Vídeos hospedados localmente</h3>
             <p>Este vídeo esta hospedado no meu proprio servidor.</p>
             <video preload="metadata" width="300px" poster="../imagens/thumbnail-cafe-ex.png" controls>
-                <source src="../midias/Video-Cafe-Ex-mp4.mp4" type="video/mp4">
-                <source src="../midias/Video-Cafe-Ex-webm.webm" type="videos/webm">
-                <source src="../midias/video-cafe-ex-OGV.ogv" type="video/ogv">
+                <source src="midias/Video-Cafe-Ex-mp4.mp4" type="video/mp4">
+                <source src="midias/Video-Cafe-Ex-webm.webm" type="videos/webm">
+                <source src="midias/video-cafe-ex-OGV.ogv" type="video/ogv">
             </video>
             <p>Para colocar vídeos que estão hospedados localmente, você deve usar a tag vídeo assim:</p>
 <pre style="font-size: 0.67em;">
@@ -400,8 +400,8 @@
                 <h3>Cores</h3>
             <p>Uma boa forma de escolher as cores do seu site é usando o circulo cromático.</p>
             <picture>
-                <source media="(max-width: 700px)" srcset="../imagens/CIRCULO-CROMATICO-14-300.jpg" type="image/jpg">
-                <img src="../imagens/CIRCULO-CROMATICO-14-original.jpg" alt="">
+                <source media="(max-width: 700px)" srcset="imagens/CIRCULO-CROMATICO-14-300.jpg" type="image/jpg">
+                <img src="imagens/CIRCULO-CROMATICO-14-original.jpg" alt="">
             </picture>
             <br><br>
             <p>Recomendo você usar o circulo cromático do <a href="https://color.adobe.com/pt/create/color-wheel" rel="external" target="_blank" >Adobe</a>. É totalmente grátis.</p>
@@ -409,8 +409,8 @@
         
         <h2>Tipografia</h2>
             <picture>
-                <source media="(max-width: 780px)" srcset="../imagens/tipografia-anatomia-01-300.jpg" type="image/jpg">
-                <img src="../imagens/tipografia-anatomia-01-700.jpg" alt="">
+                <source media="(max-width: 780px)" srcset="imagens/tipografia-anatomia-01-300.jpg" type="image/jpg">
+                <img src="imagens/tipografia-anatomia-01-700.jpg" alt="">
             </picture>
         <h4>Fontes</h4>
         <p>Fontes são muito importantes no seu site, e devem ser escolhidas com bastante atenção. Pois não adianta ter um site com um ótimo conteudo, mas ter uma apresentação que deixa a desejar. Então, na minha atual opnião, eu recomendo você utilizar a fonte Arial, Helvetica, sans-serif para tiltulos e subtitulos, e a fonte 'Times New Roman', Times, serif para paragráfos. Para colocar fontes é só você usar a tag <code>font-family</code>.</p>
@@ -539,19 +539,19 @@ h1 {
                 <h2>Caixa</h2>
                 <h3>Tipos de caixa</h3>
             <picture>
-                <source media="(max-width:800px )" srcset="../imagens/tipos-de-caixa-300.png" type="image/png">
-                <source media="(max-width:970px )" srcset="../imagens/tipos-de-caixa-700.png" type="image/png">
-                <source media="(max-width:1100px )" srcset="../imagens/tipos-de-caixa.png" type="image/png">
-                <img src="../imagens/tipos-de-caixa-1000.png" alt="">
+                <source media="(max-width:800px )" srcset="imagens/tipos-de-caixa-300.png" type="image/png">
+                <source media="(max-width:970px )" srcset="imagens/tipos-de-caixa-700.png" type="image/png">
+                <source media="(max-width:1100px )" srcset="imagens/tipos-de-caixa.png" type="image/png">
+                <img src="imagens/tipos-de-caixa-1000.png" alt="">
             </picture>
         
             <h3>Modelo de caixa</h3>
             <picture>
-                <source media="(max-width:610px )" srcset="../imagens/modelo-de-caixa-300.png" type="image/png">
-                <source media="(max-width:812px )" srcset="../imagens/modelo-de-caixa-500.png" type="image/png">
-                <source media="(max-width:1000px )" srcset="../imagens/modelo-de-caixa-700.png" type="image/png">
-                <source media="(max-width:1100px )" srcset="../imagens/modelo-de-caixa-900.png" type="image/png">
-                <img src="../imagens/modelo-de-caixa-1000.png" alt="">
+                <source media="(max-width:610px )" srcset="imagens/modelo-de-caixa-300.png" type="image/png">
+                <source media="(max-width:812px )" srcset="imagens/modelo-de-caixa-500.png" type="image/png">
+                <source media="(max-width:1000px )" srcset="imagens/modelo-de-caixa-700.png" type="image/png">
+                <source media="(max-width:1100px )" srcset="imagens/modelo-de-caixa-900.png" type="image/png">
+                <img src="imagens/modelo-de-caixa-1000.png" alt="">
             </picture>
             <br>
             <p>A partir do modelo de caixa você pode personalizar a vontade as box do seu site, seja ela em <code>&lt;h1&gt; - &lt;h6&gt;</code> ou <code> &lt;p&gt;</code>, entre outros.</p>
@@ -565,7 +565,7 @@ h1 {
       <aside>
         <p>Acesse também:</p>
         <ul>
-            <li><a href="../testes/index (2).html">A minha página de testes!</a></li>
+            <li><a href="testes/index (2).html">A minha página de testes!</a></li>
         </ul>
         <hr>
     </aside>
