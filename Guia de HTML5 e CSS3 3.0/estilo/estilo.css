@@ -86,6 +86,9 @@ main > article > h1.titulo-do-assunto{
     margin-left: 25px;
     margin-top: 20px;
 }
+abbr{
+    text-decoration: none;
+}
 main > article > p{
     font-family: var(--fonte-paragrafo);
     margin: 15px 0px;
@@ -118,7 +121,7 @@ div.imagen-flex > p{
     text-decoration: none;
     color: rgb(94, 94, 94);
     padding: 15px;
-    margin-left: 30px;
+    margin: 30px;
 }
 .assunto-ou-tema > a:hover{
     text-decoration: underline;
