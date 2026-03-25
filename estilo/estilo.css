@@ -168,3 +168,36 @@ aside{
     display: block;
     background-color: greenyellow;
 }
+#d1{
+    background-color: gray;
+    color: white;
+}
+#d2{
+    background-color: gray;
+    color: white;
+}
+#d3{
+    background-color: gray;
+    color: white;
+}
+#d1 > p{
+    display: none;
+}
+#d2 > p{
+    display: none;
+}
+#d3 > p{
+    display: none;
+}
+#d1:hover{
+    display: block;
+    background-color: greenyellow;
+}
+#d2 > p:hover{
+    display: block;
+    background-color: greenyellow;
+}
+#d3 > p:hover{
+    display: block;
+    background-color: greenyellow;
+}
